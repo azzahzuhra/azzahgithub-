@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Portofolio Biodata Diri</title>
+	<link rel="stylesheet" type="text/css" href="sript.css">
+</head>
+<body>
+
+	<header>
+		<h1>Portofolio Biodata Diri</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#profil">Profil</a></li>
+			<li><a href="#hobi">hobi</a></li>
+			<li><a href="#pendidikan">Pendidikan</a></li>
+			<li><a href="#kontak">Kontak</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section id="profil">
+			<h2>Profil</h2>
+			<img src="foto1.jpg" alt="Foto Profil">
+			<p>Nama: azzah zuhratul a</p>
+			<p>Tempat/Tanggal Lahir: probolinggo 18 agustus 2006</p>
+			<p>Alamat: Jl.Raya leces jawa timur</p>
+			<p>Email: azzahza@gmail.com</p>
+			<p>Telepon: 08975465686</p>
+		</section>
+
+		<section id="hobi">
+			<h2>hobi</h2>
+			<ul>
+				<li>bermain basket</li>
+				<li>memasak</li>
+				<li>rebahan</li>
+			</ul>
+		</section>
+
+		<section id="pendidikan">
+			<h2>Pendidikan</h2>
+			<ul>
+				<li>TK TARUNA DRA ZULAEHA</li>
+				<li>SD TARUNA DRA ZULAEHA</li>
+				<li>SMP TARUNA DRA ZULAEHA</li>
+				<li>SMKN1 PROBOLINGGO</li>
+			</ul>
+		</section>
+
+		<section id="kontak">
+			<h2>Kontak</h2>
+			<form>
+				<label for="nama">Nama:</label>
+				<input type="text" id="nama" name="nama"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label for="pesan">Pesan:</label>
+				<textarea id="pesan" name="pesan"></textarea><br>
+
+				<input type="submit" value="Kirim">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; edit:azzah za 5 april 2023</p>
+	</footer>
+
+</body>
+</html>
